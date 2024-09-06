@@ -1,0 +1,56 @@
+[
+    {
+        "label": "pypdf",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pypdf",
+        "description": "pypdf",
+        "detail": "pypdf",
+        "documentation": {}
+    },
+    {
+        "label": "arquivo",
+        "kind": 5,
+        "importPath": "pdfTest",
+        "description": "pdfTest",
+        "peekOfCode": "arquivo = open('hoje22-08-2024.pdf', 'rb')\nleitor = pypdf.PdfReader(arquivo)\npaginas = len(leitor.pages)\npagina = leitor.pages[0]\ntexto = pagina.extract_text()\nprint(texto)",
+        "detail": "pdfTest",
+        "documentation": {}
+    },
+    {
+        "label": "leitor",
+        "kind": 5,
+        "importPath": "pdfTest",
+        "description": "pdfTest",
+        "peekOfCode": "leitor = pypdf.PdfReader(arquivo)\npaginas = len(leitor.pages)\npagina = leitor.pages[0]\ntexto = pagina.extract_text()\nprint(texto)",
+        "detail": "pdfTest",
+        "documentation": {}
+    },
+    {
+        "label": "paginas",
+        "kind": 5,
+        "importPath": "pdfTest",
+        "description": "pdfTest",
+        "peekOfCode": "paginas = len(leitor.pages)\npagina = leitor.pages[0]\ntexto = pagina.extract_text()\nprint(texto)",
+        "detail": "pdfTest",
+        "documentation": {}
+    },
+    {
+        "label": "pagina",
+        "kind": 5,
+        "importPath": "pdfTest",
+        "description": "pdfTest",
+        "peekOfCode": "pagina = leitor.pages[0]\ntexto = pagina.extract_text()\nprint(texto)",
+        "detail": "pdfTest",
+        "documentation": {}
+    },
+    {
+        "label": "texto",
+        "kind": 5,
+        "importPath": "pdfTest",
+        "description": "pdfTest",
+        "peekOfCode": "texto = pagina.extract_text()\nprint(texto)",
+        "detail": "pdfTest",
+        "documentation": {}
+    }
+]
